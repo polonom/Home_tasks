@@ -1,0 +1,15 @@
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/bin/Debug/net7.0/Seminar01_1
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/bin/Debug/net7.0/Seminar01_1.deps.json
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/bin/Debug/net7.0/Seminar01_1.runtimeconfig.json
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/bin/Debug/net7.0/Seminar01_1.dll
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/bin/Debug/net7.0/Seminar01_1.pdb
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.csproj.AssemblyReference.cache
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.AssemblyInfoInputs.cache
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.AssemblyInfo.cs
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.csproj.CoreCompileInputs.cache
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.dll
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/refint/Seminar01_1.dll
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.pdb
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/Seminar01_1.genruntimeconfig.cache
+/Users/polinakivokurtseva/Desktop/S1/Seminar01_1/obj/Debug/net7.0/ref/Seminar01_1.dll
