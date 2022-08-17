@@ -1,6 +1,7 @@
 ﻿// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 int GiveMeSum(int number)
 {
+    number=Math.Abs(number);
     int result = 0;
     result = number % 10;
     while (number >= 10)
