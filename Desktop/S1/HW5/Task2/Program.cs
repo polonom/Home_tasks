@@ -1,10 +1,12 @@
-﻿int[] arr= new int[4];
-int[] FillArray(int[] array){
+﻿int[] arr = new int[4];
+int[] FillArray(int[] array)
+{
     Random random = new Random();
-    for (int i=0 ; i<array.Length; i++){
-        array[i] = random.Next(1,100);
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = random.Next(1, 100);
     }
-return array;
+    return array;
 }
 void PrintArray(int[] array)
 {
@@ -13,10 +15,12 @@ void PrintArray(int[] array)
         Console.Write($" {array[i]} ");
     }
 }
-int FindSummOfIndex(int[] array){
-    int summ=0;
-    for (int i = 1; i<array.Length; i=i+2){
-        summ=summ+array[i];
+int FindSummOfIndex(int[] array)
+{
+    int summ = 0;
+    for (int i = 1; i < array.Length; i = i + 2)
+    {
+        summ = summ + array[i];
     }
     return summ;
 }
