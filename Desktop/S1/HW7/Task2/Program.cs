@@ -7,7 +7,7 @@ int[,] MakeRandom2DArray()
     {
         for (int j = 0; j < 4; j++)
         {
-            array[i, j] = random.Next(10,100);
+            array[i, j] = random.Next(10, 100);
         }
 
     }
@@ -28,29 +28,33 @@ void PrintArray2D(int[,] array)
 }
 Console.WriteLine("Введите число, которое хотите найти");
 int numb = Convert.ToInt32(Console.ReadLine());
-int[] FindIndexOfNumber(int[,] array,int number){
-    int[] arr = new int[]{10,10};
+int[] FindIndexOfNumber(int[,] array, int number)
+{
+    int[] arr = new int[] { 10, 10 };
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 4; j++)
         {
-            if (array[i,j] == number){
+            if (array[i, j] == number)
+            {
                 arr[0] = i;
-                arr[1]= j;
+                arr[1] = j;
             }
-            
+
         }
 
     }
-     return arr;
+    return arr;
 
 }
 int[,] arr2d = MakeRandom2DArray();
 PrintArray2D(arr2d);
-int[] res = FindIndexOfNumber(arr2d,numb);
-if (res[0] == 10 || res[1] == 10){
+int[] res = FindIndexOfNumber(arr2d, numb);
+if (res[0] == 10 || res[1] == 10)
+{
     Console.WriteLine("Нет такого числа");
 }
-else{
+else
+{
     Console.WriteLine($"координаты числа - ({res[0]},{res[1]})");
 }
