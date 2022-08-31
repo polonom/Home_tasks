@@ -6,7 +6,7 @@
     {
         for (int j = 0; j < 4; j++)
         {
-            array[i, j] = random.Next(10,100);
+            array[i, j] = random.Next(10, 100);
         }
 
     }
@@ -25,24 +25,26 @@ void PrintArray2D(int[,] array)
 
     }
 }
-double[] FindMeanOfRow(int[,] array){
-    double g =0;
-    double f =0;
-    double k =0;
-    double l =0;
-    for(int i = 0;i<3;i++){
-         g += array[i,0];
-         f += array[i,1];
-         k += array[i,2];
-         l += array[i,3];
+double[] FindMeanOfRow(int[,] array)
+{
+    double g = 0;
+    double f = 0;
+    double k = 0;
+    double l = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        g += array[i, 0];
+        f += array[i, 1];
+        k += array[i, 2];
+        l += array[i, 3];
     }
-    double newg=g/3;
-    double newf=f/3;
-    double newk=k/3;
-    double newl=l/3;
+    double newg = g / 3;
+    double newf = f / 3;
+    double newk = k / 3;
+    double newl = l / 3;
 
-double[] arr = new double[]{newg,newf,newk,newl};
-return arr;
+    double[] arr = new double[] { newg, newf, newk, newl };
+    return arr;
 }
 int[,] arRay = MakeRandom2DArray();
 PrintArray2D(arRay);
@@ -51,7 +53,7 @@ void PrintArray(double[] array)
 {
     for (int i = 0; i < 4; i++)
     {
-        Console.Write("{0,6:F1}",array[i]);
+        Console.Write("{0,6:F1}", (float)array[i]);
     }
 }
 PrintArray(res);
