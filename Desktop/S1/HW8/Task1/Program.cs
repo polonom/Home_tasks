@@ -9,6 +9,7 @@ if (isNumberM == false || isNumberN == false)
 }
 int[,] res = MakeRandom2DArray(m, n);
 PrintArray2D(res);
+Console.WriteLine();
 int[,] change = ReputNumbersInArray(res);
 PrintArray2D(change);
 
@@ -50,7 +51,7 @@ int[,] ReputNumbersInArray(int[,] array)
             {
                 if (array[i, p] < array[i, p + 1])
                 {
-                    int c = array[i, p];
+                    int c = array[i, p+1];
                     array[i, p + 1] = array[i, p];
                     array[i, p] = c;
                 }
@@ -60,6 +61,5 @@ int[,] ReputNumbersInArray(int[,] array)
         }
 
     }
-    return array;
-
+return array;
 }
