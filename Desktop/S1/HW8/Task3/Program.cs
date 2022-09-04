@@ -31,9 +31,11 @@ int[,] FindProizvedenieOfMatrix(int[,] arr1,int[,] arr2){
     {
         for (int j = 0; j < 2; j++)
         {
+            int sum=0;
             for (int p=0;p<2;p++){
-                newarr[i,j]=arr1[i,p]*arr2[p,j];
+                sum+=arr1[i,p]*arr2[p,j];
             }
+            newarr[i,j]= sum;
         }
 
     }
